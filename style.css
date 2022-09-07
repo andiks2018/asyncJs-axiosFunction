@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: antiquewhite;
+}
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+}
+container {
+  width: inherit;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.user_table {
+  border: .5px solid grey;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+.user_table thead {
+  background-color: rgba(255, 255, 255, 0.678);
+}
+.user_table th, .user_table td {
+  height: 40px;
+  border: .5px solid grey;
+  padding: 0 12px;
+}
+/*pseudo membat nomer satu rata tengah .user_table
+/*/
+.user_table td:nth-child(1){
+  text-align: center;
+}
